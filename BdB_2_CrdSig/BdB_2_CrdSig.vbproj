@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5AFDCBEB-2E9E-446A-A78C-C9EC984CAA34}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>BdB_2_CrdSig.Module1</StartupObject>
+    <StartupObject>BdB_2_CrdSig.ModMain</StartupObject>
     <RootNamespace>BdB_2_CrdSig</RootNamespace>
     <AssemblyName>BdB_2_CrdSig</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="ModMain.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
